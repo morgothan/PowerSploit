@@ -2723,7 +2723,7 @@ Function Main
 	}
     elseif ($PsCmdlet.ParameterSetName -ieq "DumpKerb")
     {
-        $ExeArgs = "`"kerberos::list/export`" exit"
+        $ExeArgs = "`"kerberos::list /export`" exit"
     }
     elseif ($PsCmdlet.ParameterSetName -ieq "DumpCerts")
     {
